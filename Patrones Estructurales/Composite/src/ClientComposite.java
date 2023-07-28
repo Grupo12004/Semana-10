@@ -2,6 +2,7 @@ public class ClientComposite {
 
     public static void main(String... args) {
 
+        //Main donde se crean objetos y aplican metodos, ademas se asigna valores con nombres)
         Employee m1 = new Manager("Marc");
 
         Employee d1 = new Developer("Maria");

@@ -3,6 +3,7 @@ import java.util.Random;
 
 public class Developer implements Employee {
 
+    //Usa constructores para cada uno de los datos
     String name;
 
     public Developer(String name) {
@@ -16,9 +17,9 @@ public class Developer implements Employee {
 
     @Override
     public void add(Employee e) {
-        // nothing to implement
     }
 
+    //Se genera un numero aleatorio para el numero del desarrollador
     @Override
     public int calculatePoints() {
         return new Random().nextInt(24);

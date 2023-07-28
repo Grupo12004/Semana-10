@@ -4,6 +4,8 @@ import java.util.List;
 
 public class Manager implements Employee {
 
+    // Toda esta clase se utiliza para implementar los valores a los empleados, así tener todo asignado
+    //  mediante el uso de  Arrays. Ademas de returnar en caso de ser necesario
     private List<Employee> employees = new ArrayList<>();
     private String name;
 
