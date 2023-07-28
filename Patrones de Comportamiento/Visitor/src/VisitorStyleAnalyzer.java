@@ -1,5 +1,4 @@
-package Visitor.src;
- class VisitorStyleAnalyzer implements ArtworkVisitor {
+class VisitorStyleAnalyzer implements ArtworkVisitor {
         @Override
         public void visit(Painting painting) {
             System.out.println("Analizando el estilo de la pintura");

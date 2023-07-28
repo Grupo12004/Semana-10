@@ -1,6 +1,6 @@
 package Template_Method.src;
 
-public class ProductoFisico extends OrdenProcesar {
+public class ProductoFisico extends ProcesarOrden {
 
     @Override
     protected void validarOrden() {

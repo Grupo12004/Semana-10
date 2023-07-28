@@ -1,6 +1,6 @@
 package Template_Method.src;
 
-public class Suscripcion extends  OrdenProcesar{
+public class Suscripcion extends ProcesarOrden {
 
     @Override
     protected void validarOrden() {
@@ -18,7 +18,7 @@ public class Suscripcion extends  OrdenProcesar{
     }
 
     @Override
-    protected void shipOrder() {
+    protected void enviarOrder() {
         System.out.println("El pedido de suscripción ha sido activado.");
     }
 }
