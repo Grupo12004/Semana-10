@@ -1,5 +1,3 @@
-package Visitor.src;
-
 class VisitorPriceCalculator implements ArtworkVisitor {
     @Override
     public void visit(Painting painting) {

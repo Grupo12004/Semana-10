@@ -1,5 +1,3 @@
-package Visitor.src;
-
 class Sculpture extends Artwork {
     @Override
     public void accept(ArtworkVisitor visitor) {

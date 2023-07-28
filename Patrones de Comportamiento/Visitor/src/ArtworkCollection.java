@@ -1,5 +1,3 @@
-package Visitor.src;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +12,7 @@ class ArtworkCollection {
         artworks.remove(artwork);
     }
 
+    // Método que acepta un visitante y llama al método "accept" de cada obra de arte
     public void accept(ArtworkVisitor visitor) {
         for (Artwork artwork : artworks) {
             artwork.accept(visitor);
